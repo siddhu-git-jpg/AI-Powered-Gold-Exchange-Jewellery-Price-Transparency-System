@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and Python environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Training data and generated model artifacts (add intentionally when ready)
+ml-service/training/
+ml-service/models/*.keras
+ml-service/models/*.joblib
+ml-service/models/*.json
+
+# Generated presentations and local work files
+outputs/*.pptx
+outputs/*.pdf
+work/
+.DS_Store

@@ -1,0 +1,13 @@
+[build]
+  publish = "outputs"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/ml/analyze"
+  to = "/.netlify/functions/ml-analyze"
+  status = 200
+
+[[redirects]]
+  from = "/api/ml/trend"
+  to = "/.netlify/functions/ml-trend"
+  status = 200

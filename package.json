@@ -1,0 +1,7 @@
+{
+  "name": "gold-exchange-transparency-calculator",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
